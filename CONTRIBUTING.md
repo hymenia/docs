@@ -26,7 +26,7 @@ Here's some guidelines to follow:
 - Consider the reader, don't assume the reader understands a topic or knows where to find select information.
 - Stay relevant, include helpful information relative to the topic you are writing on, but do not stray too far from the original topic.
 
-You don't need to write perfect sentences in a PR, as PRs will be reviewed. Open-source software is a great place to practice skills, and get
+You don't need to write perfect sentences in a PR, as PRs will be reviewed. Open-source software is a great place to practice skills, get
 suggestions and improvements from others working on the same project.
 
 ### Formatting
