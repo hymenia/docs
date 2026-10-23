@@ -6,8 +6,14 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'Hymenia Docs',
+			description: 'Documentation for Hymenia, a place for your people.',
+			logo: {
+				light: "./src/assets/icon/light.png",
+				dark: "./src/assets/icon/dark.png",
+				replacesTitle: true,
+			},
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/hymenia/docs' }],
 			sidebar: [
 				{
 					label: 'Guides',
