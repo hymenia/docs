@@ -23,10 +23,6 @@ export default defineConfig({
 						{ label: 'Listing Spaces', slug: 'bots/listing-spaces' },
 					],
 				},
-				{
-					label: 'Reference',
-					items: [{ autogenerate: { directory: 'reference' } }],
-				},
 			],
 		}),
 	],
