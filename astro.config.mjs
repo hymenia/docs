@@ -21,6 +21,7 @@ export default defineConfig({
 						// Each item here is one entry in the navigation menu.
 						{ label: 'Getting Started', slug: 'bots/getting-started' },
 						{ label: 'Listing Spaces', slug: 'bots/listing-spaces' },
+						{ label: 'Listing Chats', slug: 'bots/listing-chats' },
 					],
 				},
 			],
