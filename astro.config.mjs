@@ -22,6 +22,7 @@ export default defineConfig({
 						{ label: 'Getting Started', slug: 'bots/getting-started' },
 						{ label: 'Listing Spaces', slug: 'bots/listing-spaces' },
 						{ label: 'Listing Chats', slug: 'bots/listing-chats' },
+						{ label: 'Sending Messages', slug: 'bots/sending-messages' },
 					],
 				},
 			],
