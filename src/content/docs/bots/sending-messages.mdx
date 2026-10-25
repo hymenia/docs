@@ -49,7 +49,7 @@ a **JSON** payload, with the values `chat_id` and `content` filled out, as such:
   };
 
   fetch('https://api-hymenia.dotun.cc/api/messages', options)
-    .then(response => response.text())
+    .then(response => response.json())
     .then(response => console.log(response))
   ```
   </TabItem>
