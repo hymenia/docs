@@ -80,7 +80,7 @@ When your changes are all done:
 1. Review your changes, and make sure they follow the guidelines above.
 2. Check that everything works as it should, including links and images.
 3. Open a pull request in this repository describing what changed, and why it changed.
-4. Link related issues (if neeed).
+4. Link related issues (if needed).
 5. If any AI model was used **at any state in the development of said PR**, please note this in the PR.
 
 A good description should summarise the changes and tell reviewers what they should pay attention to.
