@@ -16,10 +16,11 @@ export default defineConfig({
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/hymenia/docs' }],
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Bot Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Getting Started', slug: 'bots/getting-started' },
+						{ label: 'Listing Spaces', slug: 'bots/listing-spaces' },
 					],
 				},
 				{

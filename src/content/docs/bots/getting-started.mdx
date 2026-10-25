@@ -1,0 +1,38 @@
+---
+title: Getting Started
+description: Getting started with creating a new Hymenia bot.
+sidebar:
+    order: 0
+---
+import { Aside } from '@astrojs/starlight/components';
+
+## Introduction
+
+This series of guides will help you use Hymenia's bot API. This guide will help
+you with creating a bot, and inviting it to a space of your choice.
+
+To develop bots on Hymenia, you must first create a bot. This can be done directly
+in the Hymenia UI.
+
+## Method
+
+1. Open settings.
+2. Open the tab labelled "Developer".
+3. Enter an app name and press "Generate app".
+4. Copy the bot token somewhere safe. This will be used to connect to Hymenia.
+
+<Aside type="danger">Never share this bot token with anyone you do not
+trust, as it allows unrestricted access to all actions the bot can perform.</Aside>
+
+Now, you should have a bot token which can be used to connect to Hymenia and operate
+your bot. However, your bot is useless without being in at least one space, so
+next we will add the bot to a space.
+
+1. If needed, reopen the "Developer" tab in settings.
+2. Find the bot you would like to invite to a space. Press "Invite link".
+3. A panel should open, showing active invite links (if any). Press "Create invite link".
+4. Below the "Create invite link" button, a new invite link should be generated. Copy this and open it in your browser.
+5. Pick a space (which you have the required permissions in) to add the bot to.
+
+You should now have a bot in a space, ready to continue. Next, we will send our
+first API request to see what spaces the bot is in.
